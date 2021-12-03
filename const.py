@@ -1,0 +1,1 @@
+EULER_NUM = 10

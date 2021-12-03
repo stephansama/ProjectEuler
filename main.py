@@ -1,16 +1,16 @@
-# This is a sample Python script.
+from const import *
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+if EULER_NUM == 5:
+    from euler5 import *
+if EULER_NUM == 9:
+    from euler9 import *
+if EULER_NUM == 10:
+    from euler10 import *
+if EULER_NUM == 11:
+    from euler11 import *
+if EULER_NUM == 12:
+    from euler12 import *
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    main()
