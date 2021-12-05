@@ -17,14 +17,9 @@ class Pythagorean:
         self.b = b
         self.c = c
 
-    # square functions
-    @staticmethod
-    def squared(num: int):
-        return num ** 2
-
-    def a_squared(self): return self.squared(self.a)
-    def b_squared(self): return self.squared(self.b)
-    def c_squared(self): return self.squared(self.c)
+    def a_squared(self): return self.a ** 2
+    def b_squared(self): return self.a ** 2
+    def c_squared(self): return self.a ** 2
 
     def sum(self): return self.a + self.b + self.c
 
